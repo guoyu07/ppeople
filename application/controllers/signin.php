@@ -65,11 +65,10 @@ class Signin extends CI_Controller
 	/**
 	 * 检查用户信息
 	 *
-	 * @param string $email
 	 * @return boolean
 	 *
 	 */
-	public function check_user($email)
+	public function check_user()
 	{
 		$email = $this->input->post('email', TRUE);
 		$password = $this->input->post('password', TRUE);
