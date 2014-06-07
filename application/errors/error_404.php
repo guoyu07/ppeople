@@ -40,6 +40,6 @@
 	</head>
 	<body>
 		<h1>404</h1>
-		<p><?php echo anchor(base_url(), '返回首页'); ?></p>
+		<p><a href="<?php echo config_item('base_url');?>" title="返回首页">返回首页</a></p>
 	</body>
 </html>

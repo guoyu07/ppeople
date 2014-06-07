@@ -41,7 +41,7 @@ if (!defined('BASEPATH'))
   |
  */
 
-$route['default_controller'] = "home";
+$route['default_controller'] = "signin";
 $route['404_override'] = '';
 
 

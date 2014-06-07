@@ -15,5 +15,9 @@
 			<?php echo validation_errors(); ?>
 		</div>
 	<?php endif; ?>
+	<p class="text-center">
+		<a href="<?php echo base_url('/signin'); ?>" title="已有账号" class="btn btn-success">已有账号</a>
+		<a href="<?php echo base_url('/resetpassword'); ?>" title="找回密码" class="btn btn-warning margin-left-16">找回密码</a>
+	</p>
 </div>
 <?php $this->load->view('layout/simplefooter'); ?>

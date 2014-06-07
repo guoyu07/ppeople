@@ -38,7 +38,7 @@ class Signin extends CI_Controller
 			// 登录成功
 			else
 			{
-				redirect(base_url('/people'));
+				redirect(base_url('/user'));
 			}
 		}
 		else
@@ -54,7 +54,7 @@ class Signin extends CI_Controller
 				// 通过验证
 				if ($userInfo['password'] == $password)
 				{
-					redirect(base_url('/people'));
+					redirect(base_url('/user'));
 				}
 			}
 
